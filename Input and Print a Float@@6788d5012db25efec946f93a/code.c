@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void welcome() {
+char* welcome() {
     float a;
     scanf("%f",&a);
     printf("You entered:%f",a);
