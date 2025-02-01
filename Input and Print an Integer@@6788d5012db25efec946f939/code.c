@@ -4,7 +4,7 @@ char* welcome() {
     float a;
     scanf("%d",&a);
     printf("You entered:%d");
-    return a;
+    return 0;
 }
 
 int main() {
