@@ -3,8 +3,8 @@
 char* welcome() {
     float a;
     scanf("%d",&a);
-    printf("You entered:%d",10);
-    return "Welcome to code radar";
+    printf("You entered:%d");
+    return a;
 }
 
 int main() {
