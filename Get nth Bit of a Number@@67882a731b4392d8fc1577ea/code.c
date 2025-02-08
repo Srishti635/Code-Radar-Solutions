@@ -6,11 +6,10 @@ int main() {
         printf("1");
     }
     else if(b==1){
-        printf("0")
+        printf("0");
     }
     else{
         printf();
     }
-
     return 0;
 }
