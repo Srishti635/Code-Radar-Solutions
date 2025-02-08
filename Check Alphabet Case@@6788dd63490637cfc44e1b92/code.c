@@ -2,7 +2,7 @@
 int main() {
     char n;
     int ascii;
-    ascii=int(char);
+    ascii=(int)n;
     if(ascii>=65 && ascii<=90){
         printf("Uppercase");
     }
