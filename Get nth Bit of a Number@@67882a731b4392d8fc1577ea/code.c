@@ -5,7 +5,7 @@ int main() {
     if(b>0){
         printf("0");
     }
-    else{
+    else if(b==0){
         printf("0");
     }
     return 0;
