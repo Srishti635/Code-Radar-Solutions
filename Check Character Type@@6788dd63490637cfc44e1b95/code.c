@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    char n;
-    scanf("%c",&n);
-    if((n==a)||(n==e)||(n==i)||(n==o)||(n==u)){
+    char character;
+    scanf("%c",character);
+    if((character==a)||(character==e)||(character==i)||(character==o)||(character==u)){
         printf("Vowel");
     }
     else{
