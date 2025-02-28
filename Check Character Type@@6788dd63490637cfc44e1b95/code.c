@@ -2,7 +2,9 @@
 int main() {
     char character;
     scanf("%c",&character);
-    if((character==a)||(character==e)||(character==i)||(character==o)||(character==u)){
+    int n;
+    n= (int)character
+    if((n==65)||(n==69)||(n==73)||(n==79)||(n==85)){
         printf("Vowel");
     }
     else{
