@@ -9,7 +9,7 @@ int main(){
             a+=1;
         }
     }
-if(a==1){
+if(a==0){
     printf("Prime");
 }
 else{
