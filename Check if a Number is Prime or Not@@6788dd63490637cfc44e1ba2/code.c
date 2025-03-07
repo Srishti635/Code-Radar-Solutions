@@ -6,7 +6,7 @@ int main(){
     int a=0;
     for(int i=2;i<n;i++){
         if(n%2==0){
-            a+=1
+            a+=1;
         }
     }
 if(a==1){
