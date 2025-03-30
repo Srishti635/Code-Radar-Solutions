@@ -11,6 +11,7 @@ int printPrimesinRange(int n){
     if(c==1){
         printf("%d",n);
     }
+    return n;
 }
 int main(){
     int a,b;
@@ -20,3 +21,9 @@ int main(){
     }
     return 0;
 }
+
+
+
+
+
+
