@@ -1,5 +1,4 @@
-// Your code here...
-#include <stdio.h>
+#include<stdio.h>
 int printPrimesinRange(int n){
     int c =0;
     for(int i=2;i<=n-1;i++){
