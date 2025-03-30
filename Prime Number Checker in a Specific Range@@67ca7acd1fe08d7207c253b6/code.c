@@ -12,14 +12,6 @@ int printPrimesinRange(int n){
     }
     return n;
 }
-int main(){
-    int a,b;
-    scanf("%d %d",&a,&b);
-    for(int i=a;i<=b;i++){
-        printPrimesinRange(i);
-    }
-    return 0;
-}
 
 
 
