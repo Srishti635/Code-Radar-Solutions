@@ -2,20 +2,20 @@
 #include<stdio.h>
 int main(){
     int a,b,n,sum,sub,prod;
+    sum = 0;
+    sub = 0;
+    prod = 1;
     scanf("%d %d",&a,&b);
     scanf("%c",&n);
     if(n=='+'){
-        int sum=0;
         sum=a+b;
         printf("%d",sum);
     }
     if(n=='-'){
-        int sub=0;
         sub = a-b;
         printf("%d",sub);
     }
     if(n=='*'){
-        int prod = 1;
         prod = a*b;
         printf("%d",prod);
     }
