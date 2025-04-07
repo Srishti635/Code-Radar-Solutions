@@ -2,11 +2,11 @@
 #include<stdio.h>
 int main(){
     int a,b,n,sum,sub,prod;
+    scanf("%d %d",&a,&b);
+    scanf("%c",&n);
     sum = 0;
     sub = 0;
     prod = 1;
-    scanf("%d %d",&a,&b);
-    scanf("%c",&n);
     if(n=='+'){
         sum=a+b;
         printf("%d",sum);
