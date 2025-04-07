@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int a,b,n;
+    int a,b,n,sum,sub,prod;
     scanf("%d %d",&a,&b);
     scanf("%c",&n);
     if(n=='+'){
