@@ -10,9 +10,13 @@ int main(){
         printf("%d",sum);
     }
     else if(n=='-'){
+        int sub=0;
+        sub = a-b;
         printf("%d",sub);
     }
     else if(n=='*'){
+        int prod = 1;
+        prod = a*b;
         printf("%d",prod);
     }
     else{
