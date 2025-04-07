@@ -5,7 +5,8 @@ int main(){
     scanf("%d %d",&a,&b);
     scanf("%c",&n);
     if(n=='+'){
-        printf("%d",a+b);
+        int sum =a+b;
+        printf("%d",sum);
     }
     else if(n=='-'){
         printf("%d",a-b);
