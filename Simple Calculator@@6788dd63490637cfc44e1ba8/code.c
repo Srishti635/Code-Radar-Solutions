@@ -1,33 +1,29 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int a,b,sum,sub,prod,div;
+    int a,b,ans;
     char n;
     scanf("%d %d",&a,&b);
     scanf("%c",&n);
-    sum = 0;
-    sub = 0;
-    prod = 1;
-    div = 1;
-    if(n=='+'){
-        sum=a+b;
-        printf("%f",sum);
+    if(n =='+'){
+        ans=a+b;
+        printf("%d",ans);
     }
     else if(n=='-'){
-        sub = a-b;
-        printf("%f",sub);
+        ans = a-b;
+        printf("%d",ans);
     }
     else if(n=='*'){
-        prod = a*b;
-        printf("%f",prod);
+        ans = a*b;
+        printf("%d",ans);
     }
     else{
        if(b==0){
         printf("error");
        }
        else{
-        div = a/b;
-        printf("%f",div);
+        ans = a/b;
+        printf("%d",ans);
         }
     }
     return 0;
