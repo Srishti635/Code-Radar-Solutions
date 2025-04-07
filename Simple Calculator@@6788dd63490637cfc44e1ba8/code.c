@@ -9,12 +9,12 @@ int main(){
         sum=a+b;
         printf("%d",sum);
     }
-    else if(n=='-'){
+    if(n=='-'){
         int sub=0;
         sub = a-b;
         printf("%d",sub);
     }
-    else if(n=='*'){
+    if(n=='*'){
         int prod = 1;
         prod = a*b;
         printf("%d",prod);
