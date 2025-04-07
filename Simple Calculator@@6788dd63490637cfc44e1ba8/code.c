@@ -15,7 +15,7 @@ int main(){
     }
     else{
         if(b==0){
-            printf("%d",b\a);
+            printf("%d",b/a);
         }
         else{
             printf("%d",a\b);
