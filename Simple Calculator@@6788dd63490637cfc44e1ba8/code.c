@@ -14,7 +14,12 @@ int main(){
         printf("%d",a*b);
     }
     else{
-        printf("%f",a/b);
+        if(b==0){
+            printf("%d",b\a);
+        }
+        else{
+            printf("%d",a\b);
+        }
     }
     return 0;
 }
