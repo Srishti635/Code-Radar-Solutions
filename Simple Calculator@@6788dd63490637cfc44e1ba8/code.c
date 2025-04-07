@@ -11,15 +11,15 @@ int main(){
     div = 1;
     if(n=='+'){
         sum=a+b;
-        printf("%d",sum);
+        printf("%f",sum);
     }
     else if(n=='-'){
         sub = a-b;
-        printf("%d",sub);
+        printf("%f",sub);
     }
     else if(n=='*'){
         prod = a*b;
-        printf("%d",prod);
+        printf("%f",prod);
     }
     else{
        if(b==0){
@@ -27,7 +27,7 @@ int main(){
        }
        else{
         div = a/b;
-        printf("%d",div);
+        printf("%f",div);
         }
     }
     return 0;
