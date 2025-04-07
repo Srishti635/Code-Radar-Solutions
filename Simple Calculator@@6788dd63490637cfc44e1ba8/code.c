@@ -17,7 +17,7 @@ int main(){
         ans = a*b;
         printf("%d",ans);
     }
-    else{
+    else if (n=='/'){
        if(b==0){
         printf("error");
        }
@@ -25,6 +25,9 @@ int main(){
         ans = a/b;
         printf("%d",ans);
         }
+    }
+    else{
+        printf("error")
     }
     return 0;
 }
