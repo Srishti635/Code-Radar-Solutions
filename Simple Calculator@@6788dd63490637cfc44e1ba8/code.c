@@ -19,7 +19,7 @@ int main(){
         prod = a*b;
         printf("%d",prod);
     }
-    else{
+    else if (n=='/'){
         if(b==0){
             printf("error");
         }
