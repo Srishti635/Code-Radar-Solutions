@@ -1,7 +1,8 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int a,b,n,sum,sub,prod,div;
+    int a,b,sum,sub,prod,div;
+    char n;
     scanf("%d %d",&a,&b);
     scanf("%c",&n);
     sum = 0;
