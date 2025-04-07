@@ -4,10 +4,9 @@ int main(){
     int a,b,n;
     scanf("%d %d",&a,&b);
     scanf("%c",&n);
-    int sum=a+b;
-    int sub=a-b;
-    int prod=a*b;
     if(n=='+'){
+        int sum=0;
+        sum=a+b;
         printf("%d",sum);
     }
     else if(n=='-'){
