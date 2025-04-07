@@ -11,11 +11,11 @@ int main(){
         sum=a+b;
         printf("%d",sum);
     }
-    if(n=='-'){
+    else if(n=='-'){
         sub = a-b;
         printf("%d",sub);
     }
-    if(n=='*'){
+    else if(n=='*'){
         prod = a*b;
         printf("%d",prod);
     }
