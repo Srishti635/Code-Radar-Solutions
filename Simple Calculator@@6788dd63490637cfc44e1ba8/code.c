@@ -22,7 +22,7 @@ int main(){
     }
     else{
        if(b==0){
-        printf("%d","error");
+        printf("error");
        }
        else{
         div = a/b;
