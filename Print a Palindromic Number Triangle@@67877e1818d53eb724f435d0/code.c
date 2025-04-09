@@ -9,10 +9,10 @@ int main(){
         }
         for(int j=1;j<=2*i-1;j++){
             if(j%2!=0){
-                printf("1 ");
+                printf("1\n");
             }
             else{
-                printf("2 ");
+                printf("2");
             }
         }
         printf("\n");
