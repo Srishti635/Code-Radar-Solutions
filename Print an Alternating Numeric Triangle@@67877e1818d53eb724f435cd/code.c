@@ -3,24 +3,16 @@
 int main(){
     int N;
     scanf("%d",&N);
-    int a = 1;
     for(int i=1;i<=N;i++){
-        if(i==1){
-            printf("%d\n",a);
-        }
-        else{
         for(int j=1;j<=i;j++){
-            if(j%2==0){
-                 a=1;
-                 printf("%d ",a);
+            if(i%2!=0){
+                printf("1");
             }
             else{
-                a=0;
-                printf("%d ",a);
+                printf("0");
             }
         }
         printf("\n");
-    }
     }
     return 0;
 }
