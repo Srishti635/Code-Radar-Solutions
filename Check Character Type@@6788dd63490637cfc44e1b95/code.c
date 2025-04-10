@@ -1,18 +1,22 @@
 #include <stdio.h>
 int main() {
-    char character;
-    scanf("%c",&character);
-    int n;
-    n= (int)character;
-    if((n==65)||(n==69)||(n==73)||(n==79)||(n==85)){
-        printf("Vowel");
+    char ch;
+    scanf("%d",&ch);
+    if(ch>='a' && ch<='z'){
+        switch(ch){
+            case 'a': case 'e': case 'i':case 'o': case 'u':
+            case 'A': case 'E' : case 'I': case 'O' : case 'U':
+            printf("Vowel");
+            break;
+            default:
+                printf("Consonant");
+        }
     }
-    else if((n<65 && n>90) &&(n<97 && n>122)){
+    else if(ch>=0 && ch<=9){
         printf("Digit");
-
     }
     else{
-        printf("Consonant");
+        printf("Special Character");
     }
     return 0;
 }
